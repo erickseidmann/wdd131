@@ -2,28 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>WDD 131 – Dynamic Web Fundamentals – Erick Seidmann</title>
+
     <meta name="description"
-        content="WDD 131 – Dynamic Web Fundamentals, Erick Seidmann, course landing page with HTML, CSS, JavaScript, projects, and resources." />
+        content="WDD 131 – Dynamic Web Fundamentals, Erick Seidmann, course landing page with assignments, resources, and project links." />
     <meta name="author" content="Erick Seidmann" />
-    <!-- Google Font I had a hard time here kkkkk -->
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
     <link rel="stylesheet" href="styles/base.css" />
-    <!-- JS -->
     <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
     <header class="site-header">
-        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+        <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
 
         <nav class="site-nav" aria-label="Primary">
-            <a href="www.linkedin.com/in/erick-seidmann" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://byupw.instructure.com/" target="_blank" rel="noopener">Canvas</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://byupw.instructure.com/" target="_blank" rel="noopener">I-Learn</a>
             <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank"
                 rel="noopener">Scripture</a>
             <a href="project/" title="Final Project placeholder">Final Project</a>
@@ -31,35 +34,60 @@
     </header>
 
     <main class="container">
-        <h1>Erick Seidmann</h1>
+        <h1 class="page-title">Erick Seidmann</h1>
 
         <div class="cards">
+            <!-- Card 1 -->
             <section class="card">
-                <h2>About Me</h2>
-                <img src="images/profile.png" alt="Portrait of Erick" width="800" height="500" loading="lazy" />
-                <p>
-                    Hi! I’m Erick. This is my WDD 131 course landing page where I will
-                    share assignments, resources, and project progress.
-                </p>
+                <h2 class="card-title">About Me</h2>
+
+                <div class="about-top">
+                    <p>
+                        My name is Erick. I run a language school and I enjoy building web projects.
+                        I’m currently studying software development and practicing HTML, CSS, and JavaScript.
+                    </p>
+
+                    <img class="profile-img" src="images/profile.png" alt="Portrait of Erick" width="220" height="220"
+                        loading="lazy" />
+                </div>
+
+                <h3 class="subheading">Campinas, Brazil</h3>
+                <hr class="divider" />
+
+                <div class="about-bottom">
+                    <figure class="flag-box">
+                        <img src="images/campinas.png" alt="Brazil flag" width="160" height="100" loading="lazy" />
+                        <figcaption>Official flag of Brazil</figcaption>
+                    </figure>
+
+                    <p>
+                        Brazil is known for its cultural diversity, beautiful landscapes, and welcoming people.
+                        I live in Campinas and enjoy learning new technologies and creating educational tools.
+                    </p>
+                </div>
             </section>
 
+            <!-- Card 2 -->
             <section class="card">
-                <h2>Brazil / Interests</h2>
-                <img src="images/campinas.png" alt="City view representing Campinas, Brazil" width="800" height="500"
-                    loading="lazy" />
-                <p>
-                    I live in Brazil and I enjoy building web projects, learning new
-                    technologies, and creating educational solutions.
-                </p>
+                <h2 class="card-title">Web Dev Resources</h2>
+                <ul class="resource-list">
+                    <li><a href="https://dev.to/" target="_blank" rel="noopener">Dev.to Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com/" target="_blank" rel="noopener">Smashing Magazine</a>
+                    </li>
+                    <li><a href="https://css-tricks.com/" target="_blank" rel="noopener">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3 Schools</a></li>
+                    <li><a href="https://www.udemy.com/" target="_blank" rel="noopener">Udemy</a></li>
+                    <li><a href="#" title="Local placeholder example">Local Placeholder Link</a></li>
+                </ul>
             </section>
         </div>
     </main>
 
     <footer class="site-footer">
-        <p>
-            &copy; <span id="currentyear"></span> Erick Seidmann • Brazil
+        <p class="footer-line">
+            &copy;<span id="currentyear"></span> Erick Seidmann • Brazil
         </p>
-        <p id="lastModified"></p>
+        <p id="lastModified" class="footer-line"></p>
     </footer>
 </body>
 

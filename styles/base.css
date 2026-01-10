@@ -9,14 +9,17 @@
     --nav: #2f2f2f;
     --bg: #ffffff;
     --border: #bfc6cd;
-    --muted: #666;
+    --muted: #444;
+    --text: #111;
+    --white: #ffffff;
     --yellow: #ffe65a;
+    --link: #1a55cc;
 }
 
 body {
     font-family: "Roboto", Arial, sans-serif;
     background: var(--bg);
-    color: #111;
+    color: var(--text);
 }
 
 
@@ -34,9 +37,9 @@ footer {
 
 /*  HEADER  */
 .site-header {
-    background: var(--blue);
-    color: #fff;
-    /* CONTRAST FIX */
+    background: var(--muted);
+    color: var(--white);
+
 }
 
 /* garante que nada dentro herde preto */
@@ -65,7 +68,7 @@ footer {
 
 /* garante que nada dentro herde preto */
 .site-nav * {
-    color: #fff;
+    color: var(--white);
 }
 
 .site-nav a {
@@ -78,7 +81,7 @@ footer {
 
 .site-nav a:hover,
 .site-nav a:focus-visible {
-    background: #444;
+    background: var(--muted);
     outline: none;
 }
 

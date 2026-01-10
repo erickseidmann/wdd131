@@ -16,4 +16,8 @@
 
 body {
     font-family: "Inter", system-ui, Arial, sans-serif;
+    background: #f4f6fb;
+    color: #111;
+    line-height: 1.5;
 }
+

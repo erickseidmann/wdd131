@@ -21,3 +21,12 @@ body {
     line-height: 1.5;
 }
 
+/* HEADER */
+.site-header {
+    background: var(--bg);
+    /* Uses a CSS variable to make site color changes easier */
+    color: var(--text);
+    padding: 1.25rem 1rem;
+
+}
+

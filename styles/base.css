@@ -23,14 +23,8 @@ body {
 }
 
 
-header {
-    display: block;
-}
-
-main {
-    display: block;
-}
-
+header,
+main,
 footer {
     display: block;
 }

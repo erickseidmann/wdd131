@@ -201,7 +201,8 @@ footer {
 }
 
 .resource-list a {
-    color: #1a55cc;
+    color: var(--link);
+    text-decoration: underline;
 }
 
 /*  FOOTER  */

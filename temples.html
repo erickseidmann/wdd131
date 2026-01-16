@@ -15,7 +15,87 @@
 </head>
 
 <body>
+    <header class="site-header">
+        <div class="header-inner">
+            <p class="site-title">Temple Album</p>
 
+            <button id="menuBtn" class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="site-nav" aria-label="Primary navigation">
+                <ul id="menu" class="menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Old</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Large</a></li>
+                    <li><a href="#">Small</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Home</h1>
+
+        <section class="grid" aria-label="Temple photo album">
+            <figure class="card">
+                <img src="images/temples/temple1.webp" alt="San Diego California Temple" loading="lazy" width="800"
+                    height="500">
+                <figcaption>San Diego California</figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/temples/temple2.webp" alt="Salt Lake Temple" loading="lazy" width="800" height="500">
+                <figcaption>Salt Lake</figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/temples/temple3.webp" alt="Rome Italy Temple" loading="lazy" width="800" height="500">
+                <figcaption>Rome Italy</figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/temples/temple4.webp" alt="São Paulo Brazil Temple" loading="lazy" width="800"
+                    height="500">
+                <figcaption>São Paulo Brazil</figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/temples/temple5.webp" alt="Campinas Brazil Temple" loading="lazy" width="800"
+                    height="500">
+                <figcaption>Campinas Brazil</figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/temples/temple6.webp" alt="Provo City Center Temple" loading="lazy" width="800"
+                    height="500">
+                <figcaption>Provo City Center</figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/temples/temple7.webp" alt="Laie Hawaii Temple" loading="lazy" width="800" height="500">
+                <figcaption>Laie Hawaii</figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/temples/temple8.webp" alt="Paris France Temple" loading="lazy" width="800"
+                    height="500">
+                <figcaption>Paris France</figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/temples/temple9.webp" alt="Washington D.C. Temple" loading="lazy" width="800"
+                    height="500">
+                <figcaption>Washington D.C.</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="year"></span> • Erick Seidmann • Brazil</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
 </body>
 
 </html>

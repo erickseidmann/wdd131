@@ -1,0 +1,38 @@
+@media (min-width: 760px) {
+    .menu-btn {
+        display: none;
+        /* hamburger only on mobile */
+    }
+
+    .header-inner {
+        align-items: center;
+    }
+
+    .site-nav {
+        width: auto;
+    }
+
+    .menu {
+        margin: 0;
+        display: flex;
+        /* visible in large view */
+        flex-direction: row;
+        /* horizontal */
+        gap: .35rem;
+    }
+
+    /* Requirement: Use CSS Flex on navigation */
+    .menu {
+        justify-content: flex-end;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1050px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
